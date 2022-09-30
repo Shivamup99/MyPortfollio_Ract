@@ -1,0 +1,24 @@
+.footer{
+    padding: 30px 40px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(0,0,0,0.9);
+}
+.footer h2{
+    letter-spacing: 1.2px;
+    color: rgba(17, 212, 153, 0.79);
+    text-transform: uppercase;
+}
+.footer span{
+    display: flex;
+    align-items: center;
+    gap:.9rem;
+    color: #fff;
+}
+.links{
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+}

@@ -1,0 +1,32 @@
+.education{
+    flex: .7;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 10px 0px;
+}
+.education-content{
+    padding: 0px 10px;
+}
+.table{
+    border: none;
+    border-collapse: collapse;
+    border-radius: 5px;
+    width: 100%;
+    
+}
+th,td{
+    padding: .8rem 1rem;
+    font-size: 1rem;
+}
+thead{
+    background: #7865FF !important;
+    color: #fff;
+    letter-spacing: 1px;
+}
+td{
+    font-size: 0.8rem;
+    color:black;
+    font-weight: 500;
+    background-color: rgb(215, 189, 189);
+    padding: 20px 40px;
+}
+

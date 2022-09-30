@@ -1,0 +1,43 @@
+.testi{
+    padding: 30px 40px;
+}
+.testi h2{
+    color: #7865FF;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.testi-content{
+    background: #fff;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+.testi-data{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 0px;
+}
+.testi-data p{
+    width: 87%;
+    letter-spacing: 1.1px;
+    font-size: 13px;
+    line-height: 16px;
+}
+.testi-data img{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    object-fit: cover;
+}
+.testi-data a{
+    color: brown;
+    letter-spacing: 1px;
+    text-decoration: underline;
+    text-transform: lowercase;
+    margin-top: 5px;
+}
+.testi-data a:hover{
+    text-decoration: none;
+    color: #7865FF;
+}

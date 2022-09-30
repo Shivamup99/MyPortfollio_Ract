@@ -1,0 +1,88 @@
+.about{
+    padding: 30px;
+}
+.about-me{
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+    color: rgba(47, 33, 177, 0.735);
+}
+.about-contents{
+    display: flex;
+    padding: 0px 60px;
+    flex: 1;
+    column-gap: 2.8rem;
+}
+.about-btns{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    flex: .3;
+    row-gap: 1.6rem;
+    /* background-color:rgba(84, 19, 164, 0.836); */
+}
+.about-btns button{
+    padding: 12px;
+    letter-spacing: 1px;
+    background-color: rgba(84, 19, 164, 0.836);
+    border: none;
+    border-radius: 1.8px;
+    color: #ffffff;
+   
+}
+/* .about-btns .active{
+    background-color: brown;
+} */
+.about-content{
+    display: flex;
+    gap:2rem;
+    flex: .7;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 400px;
+}
+.about-content img{
+    height: 200px;
+    padding: 15px;
+}
+.about-content-tag{
+    padding: 13px;
+}
+.about-content-tag h4{
+    margin-bottom: 5px;
+    font-weight: 300;
+    font-size: 13px;
+}
+.about-content-tag h4 span{
+    font-size: 24px;
+    color: brown;
+    font-weight: 600;
+    margin-left: 5px;
+}
+.about-content-tag p{
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 18px;
+    margin-bottom: 5px;
+}
+.social-link{
+    display: flex;
+    align-items: center;
+    column-gap: 2rem;
+}
+.social-link p{
+    font-size: 13px;
+    font-weight:600;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    column-gap: 2rem;
+    margin-top: 10px;
+}
+.contact p{
+    font-size: 13px;
+    font-weight: 600;
+}
+.contact span{
+    color: brown;
+}
+

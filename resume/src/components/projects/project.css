@@ -1,0 +1,61 @@
+.projects{
+    padding: 30px 40px;
+}
+.projects h2{
+    color: #7865FF;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.projects-content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:1rem;
+}
+
+.project-data{
+    background: #132347;
+    padding: 5px 20px;
+    border-radius: 5px;
+    height: 200px;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+    border-bottom: 1px solid #7865ff;
+}
+.project-data:hover{
+    transform: translateY(-10px);
+}
+.pro-icon{
+    color: #7865ff;
+    font-size: 1.7rem;
+}
+.projects-content h2{
+    font-size: 1.4rem;
+    margin-bottom: 14px;
+}
+.projects-content p{
+    font-weight: 300;
+    line-height: 18px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.projects-content .git{
+    margin-top: 38px;
+    display: flex;
+    align-items: center;
+    color: rgba(204, 70, 21, 0.74);
+    gap:20px;
+}
+.git i{
+    font-size: 22px;
+}
+.git a{
+    letter-spacing: 1px;
+    text-transform: lowercase;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.git a:hover{
+    text-decoration: none;
+    color: rgba(204, 48, 21, 0.904);
+}

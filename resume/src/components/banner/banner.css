@@ -1,0 +1,75 @@
+.banner{
+    padding: 40px;
+    height: 420px;
+}
+.banner-content{
+    display: flex;
+    align-items: center;
+    flex:1;
+}
+.banner-left{
+    flex:.6;
+}
+.banner-left p{
+    margin-bottom: 20px;
+}
+.banner-left .name {
+   margin-bottom: 10px;
+}
+.banner-left .name span{
+    font-size: 30px;
+    margin-left: 10px;
+    letter-spacing: 1.1px;
+    font-weight: 600;
+    color: rgba(19, 96, 211, 0.829);
+}
+.banner-left .desc{
+    width: 80%;
+    letter-spacing: 1.1px;
+    line-height: 18px;
+}
+.btn-1{
+    display: flex;
+    align-items: center;
+    column-gap: 3rem;
+}
+.btn-1 .cv{
+    padding: 5px;
+    font-size: 13px;
+    letter-spacing: 1.1px;
+    background-color: #ffffff;
+    border: 1px solid skyblue;
+    outline: none;
+    width: 100px;
+    transition: .3s all ease-in-out;
+}
+.btn-1 .cv:hover{
+    background-color: rgb(32, 102, 181);
+    color: #fff;
+}
+.btn-1 .contacts{
+    padding: 5px;
+    font-size: 13px;
+    letter-spacing: 1.1px;
+    text-transform: capitalize;
+    background-color: rgba(21, 70, 155, 0.854);
+    border: 1px solid blue;
+    outline: none;
+    width: 100px;
+    color: #fff;
+    transition: .3s ease-in-out;
+}
+.btn-1 .contact:hover{
+    background-color: #fff;
+    color: black;
+}
+.banner-right{
+    flex: .4;
+}
+.banner-right img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}

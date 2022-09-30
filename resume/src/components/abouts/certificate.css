@@ -1,0 +1,34 @@
+.certificate{
+    display: flex;
+    column-gap: 1rem;
+    flex: .7;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 10px 0px;
+}
+.c-content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+    grid-auto-rows: minmax(100px, auto);
+    padding: 0px 14px;
+}
+.c-data{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    padding: 5px 10px;
+}
+.c-data h4{
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    color: rgba(22, 74, 163, 0.858);
+}
+.c-data h4 span{
+    color: brown;
+    font-size: 16px;
+}
+.c-data p{
+    font-size: 13.5px;
+    letter-spacing: 1px;
+    line-height: 16px;
+}
